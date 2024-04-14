@@ -131,3 +131,14 @@ body {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+@media  only screen and  (max-width: 400px) {
+    .container-box{
+        width: 330px;
+        padding: 20px;
+    }
+
+    .container-box .remember-forgot {
+        font-size: 14px;
+    }
+}
