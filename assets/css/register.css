@@ -73,21 +73,16 @@ body {
     font-size: 20px;
 }
 
-
-/* Styling for the "Remember me" checkbox and "Forgot Password" link */
 .container-box .term-checkbox {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    font-size: 14.5px;
     margin: 20px 0px 20px 10px;
 }
 
 .term-checkbox label input {
     accent-color: black;
     margin-right: 10px;
-}
-
-.container-box .term-checkbox label span {
-    font-size: 14.5px;
 }
 
 /* Styling for the login button */
@@ -150,7 +145,7 @@ body {
 
 @media  only screen and  (max-width: 400px) {
     .container-box{
-        width: 330px;
+        width: 370px;
         padding: 20px;
     }
 }
