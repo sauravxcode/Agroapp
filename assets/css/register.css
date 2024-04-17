@@ -152,6 +152,7 @@ body {
 }
 
 .dateofbirth label {
+    margin: auto;
     margin-right: 10px;
     margin-left: 10px;
 }
