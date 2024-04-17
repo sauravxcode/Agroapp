@@ -73,6 +73,8 @@ body {
     font-size: 20px;
 }
 
+
+/* Styling for the "Remember me" checkbox and "Forgot Password" link */
 .container-box .term-checkbox {
     display: flex;
     justify-content: space-between;
@@ -143,9 +145,13 @@ body {
     background-size: 24px;
 }
 
-@media  only screen and  (max-width: 400px) {
-    .container-box{
-        width: 370px;
-        padding: 20px;
-    }
+.dateofbirth {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateofbirth label {
+    margin-right: 10px;
+    margin-left: 10px;
 }
