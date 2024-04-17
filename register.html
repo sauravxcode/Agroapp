@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.png" />
     <!-- External CSS file for styling -->
     <link rel="stylesheet" href="assets/css/register.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -42,9 +43,10 @@
 
         <!-- Input box for date of birth -->
         <div class="input-box dateofbirth">
-                <label>DOB:</label>
-                <input type="date" name="dob" required>
+          <label>DOB:</label>
+          <input type="date" name="dob" required />
         </div>
+
         <!-- Input box for gender -->
         <div class="input-box gender-dropdown">
           <select name="gender" required>
@@ -82,7 +84,14 @@
 
         <!-- Checkbox for terms and conditions -->
         <div class="term-checkbox">
-          <label><input type="checkbox" name="terms_condition" id="terms_condition" required/>I consent to terms & conditions</label>
+          <label
+            ><input
+              type="checkbox"
+              name="terms_condition"
+              id="terms_condition"
+              required
+            />I consent to terms & conditions</label
+          >
         </div>
 
         <!-- Button for form submission -->
